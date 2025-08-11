@@ -12,8 +12,8 @@
 #include "SH1106Wire.h"
 //Encoder myEnc(D6, D7);
 
-const char* ssid = "TP-LINK_AD78C7";
-const char* password = "21282874";
+const char* ssid = "TP";
+const char* password = "21";
 WiFiServer server(80);// Set port to 80
 String header; // This storees the HTTP request
 
@@ -360,3 +360,4 @@ void cieplaWoda() {
    
   display.display();
 }
+
